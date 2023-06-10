@@ -30,3 +30,5 @@ app.post('/description',async(req,res)=>{
 app.listen(process.env.PORT,()=>{
     console.log('Backend Started')
 });
+
+module.exports = app;
