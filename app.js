@@ -20,8 +20,7 @@ app.post('/description',async(req,res)=>{
         response = {
             "tags":data.description.tags,
             "captions":data.description.captions[0].text,
-        }
-        
+        }        
         res.status(200).send(response.captions);
     })})
 });
